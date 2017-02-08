@@ -5,12 +5,14 @@ var colors = ['red', 'blue', 'yellow'];
 // using array indices, write an expression that will evaluate to the color described by these variable names
 // for example var theColorBlue = colors[1];
 // uncomment the next two lines and replace ____ with the appropriate code
-// var theColorRed = _____;
-// var theColorYellow = _____;
+var theColorRed = colors[0];
+var theColorYellow = colors[2];
 
-// what happens if we access an index that has no element?
+// what happens if we access an index that has no element? It will return undefined?
 // uncomment the following line and replace ____ with the appropriate code
-// var fortyThirdColor = _____;
+var fortyThirdColor = colors[42];
+
+console.log(theColorRed, theColorYellow, fortyThirdColor);
 
 function lastItem( array ) {
   // this function accepts an array as an argument
