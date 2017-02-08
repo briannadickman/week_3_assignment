@@ -8,13 +8,16 @@ var colors = ['red', 'blue', 'yellow'];
 var theColorRed = colors[0];
 var theColorYellow = colors[2];
 
-// what happens if we access an index that has no element? It will return undefined?
+// what happens if we access an index that has no element? It will return undefined
 // uncomment the following line and replace ____ with the appropriate code
 var fortyThirdColor = colors[42];
 
 console.log(theColorRed, theColorYellow, fortyThirdColor);
 
-function lastItem( array ) {
+function lastItem() {
+      console.log(colors[colors.length-1]);
   // this function accepts an array as an argument
   // have it return the last item in the array
 }
+
+lastItem(colors);
