@@ -1,8 +1,11 @@
 var count = 0;
 
 do {
-  count++
-} while (false)
+  count++;
+}
+while (false);
 
 // uncomment the following line and replace ___ with the correct value
-// var valueOfCountAfterLoop = ___;
+var valueOfCountAfterLoop = 1;
+
+console.log(count, valueOfCountAfterLoop);
