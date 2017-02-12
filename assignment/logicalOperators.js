@@ -5,7 +5,7 @@ var andTruthTable = [true  && true,
 
 // in the array 'andTruthtable', how many elements are true?
 // uncomment the next line and replace ___ with the appropriate value
-// var numberOfTrueElements = ___;
+var numberOfTrueElements = 4;
 
 
 
