@@ -3,4 +3,3 @@ function onlyEvens(array) {
   // numbers, it returns a new array containing only the even ones
   // for example `onlyEvens([1,2,3,4]) === [2,4]`
 }
-.
