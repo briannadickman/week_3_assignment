@@ -3,7 +3,7 @@ function fillCrate( maxCapacity ){
   // crateMax is the maximum widget capacity of the crate
   // crates start empty
   var widgets = 0;
-  while (widgets <= maxCapacity) {
+  while (widgets < maxCapacity) {
     console.log("I have " + widgets + " widgets in the crate.");
     widgets++;
     console.log("Adding another widget...");
