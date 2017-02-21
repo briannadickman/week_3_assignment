@@ -14,10 +14,10 @@ var fortyThirdColor = colors[42];
 
 console.log(theColorRed, theColorYellow, fortyThirdColor);
 
-function lastItem() {
-      console.log(colors[colors.length-1]);
+function lastItem(array) {
+      return( array[array.length-1] );
   // this function accepts an array as an argument
   // have it return the last item in the array
 }
 
-lastItem(colors);
+console.log(lastItem(colors));

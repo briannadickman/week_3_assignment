@@ -1,13 +1,13 @@
 
 function isCartonFull(eggsInCarton, cartonCapacity){
     if (eggsInCarton == cartonCapacity) {
-      console.log(true);
+      return true;
     }
     else if (eggsInCarton > cartonCapacity) {
-      console.log('You have too many eggs!');
+      return 'You have too many eggs!';
     }
     else {
-      console.log(false);
+      return false;
     }
   // write an if statement checks if the carton is at cartonCapacity
   // this function should return true if so, false if not
