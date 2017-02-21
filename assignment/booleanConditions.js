@@ -13,6 +13,6 @@ function isCartonFull(eggsInCarton, cartonCapacity){
   // this function should return true if so, false if not
 } // end checkIfCartonIsFull
 
-isCartonFull(10, 12);
-isCartonFull(15, 12);
-isCartonFull(12, 12);
+console.log(isCartonFull(10, 12));
+console.log(isCartonFull(15, 12));
+console.log(isCartonFull(12, 12));
